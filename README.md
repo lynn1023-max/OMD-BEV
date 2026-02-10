@@ -29,27 +29,21 @@ The following demonstrations visualize the evolution of BEV feature activation m
 
 #### (a) Baseline (Single Shared)
 <img src="assets/a_base.gif" style="width: 100%; max-width: 840px; height: auto;">
-*Severe ray artifacts and background noise due to feature misalignment.*
 
 #### (b) Single-Modal Only
 <img src="assets/b_single_modal.gif" style="width: 100%; max-width: 840px; height: auto;">
-*Specialized pathways begin to handle distinct feature distributions.*
 
 #### (c) Tri-modal Synergy
 <img src="assets/c_tri_modal.gif" style="width: 100%; max-width: 840px; height: auto;">
-*The Balanced expert acts as a bridge to effectively suppress noise.*
 
 #### (d) w/ Vision-Biased
 <img src="assets/d_vision_biased.gif" style="width: 100%; max-width: 840px; height: auto;">
-*Enhanced semantic response but prone to spatial smearing.*
 
 #### (e) w/ Geometric-Biased
 <img src="assets/e_geometric_biased.gif" style="width: 100%; max-width: 840px; height: auto;">
-*Sharper object boundaries by mitigating depth-induced distortions.*
 
 #### (f) Full CASR Bank (Ours)
 <img src="assets/f_full_model.gif" style="width: 100%; max-width: 840px; height: auto;">
-*Optimal Synergy: Achieving the most balanced trade-off between precision and noise suppression.*
 
 ---
 
