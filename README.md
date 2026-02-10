@@ -25,7 +25,7 @@ The following demonstrations visualize the evolution of BEV feature activation m
 
 #### (a) Baseline (Single Shared)
 *Severe ray artifacts and background noise due to feature misalignment.*
-<video src="assets/a_base.mp4" width="100%"></video>
+<video src="https://github.com/lynn1023-max/OMD-BEV/raw/main/assets/a_base.mp4" width="100%" controls></video>
 
 #### (b) Single-Modal Only
 *Specialized pathways begin to handle distinct feature distributions.*
@@ -49,7 +49,6 @@ The following demonstrations visualize the evolution of BEV feature activation m
 
 ---
 
----
 
 ## 🚀 Key Features
 
