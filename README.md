@@ -19,19 +19,20 @@ To investigate the rationale behind the Expert Bank design, we visualize the BEV
 
 ---
 
-### Demo Videos
+### Qualitative Demo Videos
 
-Please ensure the mp4 files are stored in the `assets/` directory of the repository.
+The following videos visualize the BEV feature activation maps. Each configuration demonstrates a progressive improvement in handling geometric distortions and semantic noise.
 
-| (a) Baseline (Single Shared) | (b) Single-Modal Only | (c) Tri-modal Synergy |
-| :---: | :---: | :---: |
-| <video src="assets/a_base.mp4" width="300"></video> | <video src="assets/b_single_modal.mp4" width="300"></video> | <video src="assets/c_tri_modal.mp4" width="300"></video> |
-| *Severe artifacts and noise* | *Basic object localization* | *Noise suppression via bridging* |
+| Configuration | Visualization (BEV Feature Activation) | Analysis |
+| :--- | :---: | :--- |
+| **(a) Baseline** | <video src="assets/a_base.mp4" width="800"></video> | Severe ray artifacts and background noise due to feature misalignment. |
+| **(b) Single-Modal** | <video src="assets/b_single_modal.mp4" width="800"></video> | Dedicated pathways begin to handle distinct feature distributions. |
+| **(c) Tri-modal** | <video src="assets/c_tri_modal.mp4" width="800"></video> | The Balanced expert acts as a bridge to effectively suppress noise. |
+| **(d) Vision-Biased** | <video src="assets/d_vision_biased.mp4" width="800"></video> | Enhanced semantic response but prone to spatial smearing. |
+| **(e) Geometric-Biased** | <video src="assets/e_geometric_biased.mp4" width="800"></video> | Sharper object boundaries by mitigating depth-induced distortions. |
+| **(f) Full Model** | <video src="assets/f_full_model.mp4" width="800"></video> | **Optimal Synergy:** Achieving the most balanced trade-off in perception. |
 
-| (d) w/ Vision-Biased | (e) w/ Geometric-Biased | (f) Full CASR Bank (Ours) |
-| :---: | :---: | :---: |
-| <video src="assets/d_vision_biased.mp4" width="300"></video> | <video src="assets/e_geometric_biased.mp4" width="300"></video> | <video src="assets/f_full_model.mp4" width="300"></video> |
-| *Enhanced semantic response* | *Precise geometric boundaries* | *Optimal balanced synergy* |
+---
 
 ---
 
