@@ -25,27 +25,27 @@ The following demonstrations visualize the evolution of BEV feature activation m
 
 #### (a) Baseline (Single Shared)
 *Severe ray artifacts and background noise due to feature misalignment.*
-<video src="https://github.com/lynn1023-max/OMD-BEV/raw/main/assets/a_base.mp4" width="100%" controls></video>
+<video src="https://github.com/lynn1023-max/OMD-BEV/raw/main/assets/a_base.gif)" width="100%" controls></video>
 
 #### (b) Single-Modal Only
 *Specialized pathways begin to handle distinct feature distributions.*
-<video src="assets/b_single_modal.mp4" width="100%"></video>
+<video src="assets/b_single_modal.gif" width="100%"></video>
 
 #### (c) Tri-modal Synergy
 *The Balanced expert acts as a bridge to effectively suppress noise.*
-<video src="assets/c_tri_modal.mp4" width="100%"></video>
+<video src="assets/c_tri_modal.gif" width="100%"></video>
 
 #### (d) w/ Vision-Biased
 *Enhanced semantic response but prone to spatial smearing.*
-<video src="assets/d_vision_biased.mp4" width="100%"></video>
+<video src="assets/d_vision_biased.gif" width="100%"></video>
 
 #### (e) w/ Geometric-Biased
 *Sharper object boundaries by mitigating depth-induced distortions.*
-<video src="assets/e_geometric_biased.mp4" width="100%"></video>
+<video src="assets/e_geometric_biased.gif" width="100%"></video>
 
 #### (f) Full CASR Bank (Ours)
 *Optimal Synergy: Achieving the most balanced trade-off between precision and noise suppression.*
-<video src="assets/f_full_model.mp4" width="100%"></video>
+<video src="assets/f_full_model.gif" width="100%"></video>
 
 ---
 
