@@ -21,11 +21,7 @@ To investigate the rationale behind the Expert Bank design, we visualize the BEV
 
 ### Qualitative Demo Videos
 
-The following demonstrations visualize the evolution of BEV feature activation maps. We recommend viewing in full screen to observe the mitigation of geometric distortions.
-
-### Qualitative Demo Videos
-
-The following demonstrations visualize the evolution of BEV feature activation maps. We recommend viewing in full screen to observe the mitigation of geometric distortions.
+The following demonstrations visualize the evolution of BEV feature activation maps. 
 
 #### (a) Baseline (Single Shared)
 <img src="assets/a_base.gif" style="width: 100%; max-width: 840px; height: auto;">
