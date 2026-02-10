@@ -21,16 +21,31 @@ To investigate the rationale behind the Expert Bank design, we visualize the BEV
 
 ### Qualitative Demo Videos
 
-The following videos visualize the BEV feature activation maps. Each configuration demonstrates a progressive improvement in handling geometric distortions and semantic noise.
+The following demonstrations visualize the evolution of BEV feature activation maps. We recommend viewing in full screen to observe the mitigation of geometric distortions.
 
-| Configuration | Visualization (BEV Feature Activation) | Analysis |
-| :--- | :---: | :--- |
-| **(a) Baseline** | <video src="assets/a_base.mp4" width="800"></video> | Severe ray artifacts and background noise due to feature misalignment. |
-| **(b) Single-Modal** | <video src="assets/b_single_modal.mp4" width="800"></video> | Dedicated pathways begin to handle distinct feature distributions. |
-| **(c) Tri-modal** | <video src="assets/c_tri_modal.mp4" width="800"></video> | The Balanced expert acts as a bridge to effectively suppress noise. |
-| **(d) Vision-Biased** | <video src="assets/d_vision_biased.mp4" width="800"></video> | Enhanced semantic response but prone to spatial smearing. |
-| **(e) Geometric-Biased** | <video src="assets/e_geometric_biased.mp4" width="800"></video> | Sharper object boundaries by mitigating depth-induced distortions. |
-| **(f) Full Model** | <video src="assets/f_full_model.mp4" width="800"></video> | **Optimal Synergy:** Achieving the most balanced trade-off in perception. |
+#### (a) Baseline (Single Shared)
+*Severe ray artifacts and background noise due to feature misalignment.*
+<video src="assets/a_base.mp4" width="100%"></video>
+
+#### (b) Single-Modal Only
+*Specialized pathways begin to handle distinct feature distributions.*
+<video src="assets/b_single_modal.mp4" width="100%"></video>
+
+#### (c) Tri-modal Synergy
+*The Balanced expert acts as a bridge to effectively suppress noise.*
+<video src="assets/c_tri_modal.mp4" width="100%"></video>
+
+#### (d) w/ Vision-Biased
+*Enhanced semantic response but prone to spatial smearing.*
+<video src="assets/d_vision_biased.mp4" width="100%"></video>
+
+#### (e) w/ Geometric-Biased
+*Sharper object boundaries by mitigating depth-induced distortions.*
+<video src="assets/e_geometric_biased.mp4" width="100%"></video>
+
+#### (f) Full CASR Bank (Ours)
+*Optimal Synergy: Achieving the most balanced trade-off between precision and noise suppression.*
+<video src="assets/f_full_model.mp4" width="100%"></video>
 
 ---
 
