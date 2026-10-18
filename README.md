@@ -1,6 +1,6 @@
-# OMD-BEV: Orthogonal Modality Decomposition with Context-Adaptive Sparse Routing for Multi-Modal BEV Perception
+# Let Geometry Route the Experts: Disentangled Camera-LiDAR Fusion for Multimodal BEV Perception (ACM MM2026)
 
-This is the official implementation of **OMD-BEV**. Our framework addresses feature interference and modality imbalance in autonomous driving BEV semantic segmentation through orthogonal decomposition and a dynamic Mixture-of-Experts (MoE) bank.
+G-DRIVE: Our framework addresses feature interference and modality imbalance in autonomous driving BEV semantic segmentation through orthogonal decomposition and a dynamic Mixture-of-Experts (MoE) bank.
 
 ## 🌟 Expert Bank Ablation Visualization
 
